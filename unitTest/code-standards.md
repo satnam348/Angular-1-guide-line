@@ -22,9 +22,9 @@ Which leads to proper naming and nesting of test fixtures and cases.
 Please create nested describe blocks that mimic the folder path to the object under test:
 
 ```js
-describe(‘cart’, function() {
-  describe(‘cartServices, function() {
-    describe(‘httpRequestWrapperService, function() {
+describe(‘module’, function() {
+  describe(‘moduleServices, function() {
+    describe(‘httpRequestWrapService, function() {
      … 
     });
   });
@@ -35,7 +35,7 @@ Please create a separate describe block for every exposed method of the object u
 Please name this describe block as the name of the method followed by parenthesis, like a method invoke statement:
 
  ```js
-describe(‘httpRequestWrapperService, function() {
+describe(‘httpRequestWrapService, function() {
 
   describe(‘post()’, function() {…});
 
