@@ -4,7 +4,7 @@
 - Create reusable components in 
     - `app\core`
 
-- follow [object property naming guidelines](object-property-names.md)
+- follow [object property naming guidelines](object/object-property-names.md)
 ## Learn about angular module system
 
 https://toddmotto.com/angular-modules-setters-getters/
