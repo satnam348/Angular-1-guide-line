@@ -275,3 +275,6 @@ Is the Ending Slash Optional?
 
 i.e
 `<p> Something <div class='doh'> This is bad </div> to Do </p>`
+
+# Style the browser console
+https://developers.google.com/web/tools/chrome-devtools/console/console-write
